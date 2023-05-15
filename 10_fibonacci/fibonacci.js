@@ -6,11 +6,11 @@ const fibonacci = function(num) {
     let term2 = 1;
     let termTemp;
     for(let i = 2; i <= num; i++) {
-        termTemp = term1 + term2;
-        term1 = term2;
-        term2 = termTemp;
-      }
-      return term2;
+      termTemp = term1 + term2;
+      term1 = term2;
+      term2 = termTemp;
+    }
+    return term2;
 };
 
 // Do not edit below this line
